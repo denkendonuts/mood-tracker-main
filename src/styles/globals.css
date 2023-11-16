@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text-inter-48 {
+    @apply text-midnight-400 text-[48px] font-extrabold leading-[40px] tracking-[-0.72px];
+  }
+  .text-inter-24 {
+    @apply text-midnight-400 text-[24px] font-bold leading-[16px];
+  }
+  .text-inter-18 {
+    @apply text-midnight-400 text-[18px] font-normal leading-[24px] tracking-[-0.18px];
+  }
+  .text-inter-16 {
+    @apply text-midnight-400 text-[16px] font-extrabold leading-[16px] tracking-[-0.16px];
+  }
+  .text-inter-14 {
+    @apply text-midnight-300 text-[14px] font-semibold leading-[16px] tracking-[1.4px] uppercase;
+  }
+  .text-inter-12 {
+    @apply text-midnight-300 text-[12px] font-normal leading-[16px];
+  }
+  .scroll-gradient {
+    background: linear-gradient(180deg, #F1F5FE 0%, rgba(241, 245, 254, 0.00) 100%);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100svh;
+  background-color: #584ff5;
+  color: white;
+}
